@@ -9,25 +9,25 @@
 body {
     background-image: url(img/background.png);
     background-size: cover;
+    
 }
 
 
 .box {
-    width: 1250px;
+    width: 1000px;
     height: 100vh;
     box-shadow: 10px 5px 15px 0 rgba(0, 0, 0, 0.25), -10px 5px 15px 0 rgba(0, 0, 0, 0.25);
     background: #fff;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    
     display: flex;
     justify-content: center;
 }
 
 .btn1 {
     margin: 0 auto;
-    width: 1140px;
+    width: 90%;
     height: 55px;
     margin-top: 35px;
     border-radius: 20px;
@@ -44,7 +44,7 @@ body {
 
 .btn2 {
     margin: 0 auto;
-    width: 1140px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -61,7 +61,7 @@ body {
 
 .btn3 {
     margin: 0 auto;
-    width: 1140px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -78,7 +78,7 @@ body {
 
 .btn4 {
     margin: 0 auto;
-    width: 1140px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -95,7 +95,7 @@ body {
 
 .btn5 {
     margin: 0 auto;
-    width: 1140px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -107,12 +107,11 @@ body {
 .btn5:hover {
     border: 1.5px solid #000;
     box-shadow: none;
-    
 }
 
 .btn6 {
     margin: 0 auto;
-    width: 1140px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -145,16 +144,19 @@ p {
 }
 
 .arrow1 {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     border-radius: 100%;
     background-color: #A7B1F0;
-    
+}
+
+.chevron1 {
+    margin: 0 auto;
 }
 
 .mid {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     border-radius: 100%;
     margin-left: 40px;
     margin-right: 40px;
@@ -162,8 +164,9 @@ p {
 }
 
 .arrow2 {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     border-radius: 100%;
     background-color: #A7B1F0;
+
 }
