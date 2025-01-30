@@ -129,13 +129,25 @@ body {
 .maintxt {
     font-family: "JetBrains Mono", serif;
     margin-left: 60px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
-p {
-    text-align: center;
-    margin-top: 40px;
-    font-family: "JetBrains Mono", serif;
+.progress-bar {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    border: 1.5px solid;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.progress-bar-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #71B775;
+    border-radius: 20px;
 }
 
 .arrows {
@@ -148,10 +160,6 @@ p {
     height: 55px;
     border-radius: 100%;
     background-color: #A7B1F0;
-}
-
-.chevron1 {
-    margin: 0 auto;
 }
 
 .mid {
