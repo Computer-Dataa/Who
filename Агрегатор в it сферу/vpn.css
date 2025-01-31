@@ -22,7 +22,8 @@ html, body {
 body {
     background-image: url(img/background.png);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 h1 {
