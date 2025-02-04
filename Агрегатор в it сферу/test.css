@@ -185,6 +185,12 @@ body {
     height: 55px;
     border-radius: 100%;
     background-color: #A7B1F0;
+
+    color: white;
+    font-size: 20px;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .mid {
@@ -194,6 +200,12 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     background-color: #7F6BA9;
+
+    color: white;
+    font-size: 20px;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .arrow2 {
@@ -202,4 +214,9 @@ body {
     border-radius: 100%;
     background-color: #A7B1F0;
 
+    color: white;
+    font-size: 20px;
+
+    align-items: center;
+    justify-content: center;
 }
