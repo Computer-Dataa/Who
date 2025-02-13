@@ -30,7 +30,7 @@ body {
 
 .btn1 {
     margin: 0 auto;
-    width: 1200px;
+    width: 90%;
     height: 55px;
     margin-top: 35px;
     border-radius: 20px;
@@ -42,17 +42,12 @@ body {
 .btn1:hover {
     border: 1.5px solid #000;
     box-shadow: none;
-
-    height: 60px;
-
-    transition: all .3s;
-
-    position: sticky;
+    
 }
 
 .btn2 {
     margin: 0 auto;
-    width: 1200px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -64,15 +59,12 @@ body {
 .btn2:hover {
     border: 1.5px solid #000;
     box-shadow: none;
-
-    height: 60px;
-
-    transition: all .3s;
+    
 }
 
 .btn3 {
     margin: 0 auto;
-    width: 1200px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -84,15 +76,12 @@ body {
 .btn3:hover {
     border: 1.5px solid #000;
     box-shadow: none;
-
-    height: 60px;
-
-    transition: all .3s;
+    
 }
 
 .btn4 {
     margin: 0 auto;
-    width: 1200px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -104,15 +93,12 @@ body {
 .btn4:hover {
     border: 1.5px solid #000;
     box-shadow: none;
-
-    height: 60px;
-
-    transition: all .3s;
+    
 }
 
 .btn5 {
     margin: 0 auto;
-    width: 1200px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -124,15 +110,11 @@ body {
 .btn5:hover {
     border: 1.5px solid #000;
     box-shadow: none;
-
-    height: 60px;
-
-    transition: all .3s;
 }
 
 .btn6 {
     margin: 0 auto;
-    width: 1200px;
+    width: 90%;
     height: 55px;
     margin-top: 40px;
     border-radius: 20px;
@@ -144,10 +126,7 @@ body {
 .btn6:hover {
     border: 1.5px solid #000;
     box-shadow: none;
-
-    height: 60px;
-
-    transition: all .3s;
+    
 }
 
 .maintxt {
@@ -185,12 +164,6 @@ body {
     height: 55px;
     border-radius: 100%;
     background-color: #A7B1F0;
-
-    color: white;
-    font-size: 20px;
-
-    align-items: center;
-    justify-content: center;
 }
 
 .mid {
@@ -200,12 +173,6 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     background-color: #7F6BA9;
-
-    color: white;
-    font-size: 20px;
-
-    align-items: center;
-    justify-content: center;
 }
 
 .arrow2 {
@@ -214,9 +181,4 @@ body {
     border-radius: 100%;
     background-color: #A7B1F0;
 
-    color: white;
-    font-size: 20px;
-
-    align-items: center;
-    justify-content: center;
 }
