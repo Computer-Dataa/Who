@@ -10,8 +10,7 @@
     border: 3px solid transparent;
     height: 880px;
     width: 610px;
-
-    margin-left: 10%;    
+    margin-left: 1%;   
 }
 
 .container2 {
@@ -34,7 +33,7 @@
 h1 {
     font-family: "JetBrains Mono", serif;
     margin-bottom: 100px;
-    margin-top: 180px;
+    margin-top: 50px;
     margin-left: 50px; 
 }
 
