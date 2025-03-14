@@ -182,3 +182,46 @@ body {
     background-color: #A7B1F0;
 
 }
+
+.logo {
+    width: 150px;
+    height: 40px;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    margin-left: 4%;
+}
+
+.logo:hover{
+    border: 2px solid black;
+    transition: .3s all;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    user-select: none;
+}
+
+.main-button {
+    width: auto;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    margin-left: 12.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-button:hover {
+    border: 2px solid black;
+    transition: .3s all;
+}
