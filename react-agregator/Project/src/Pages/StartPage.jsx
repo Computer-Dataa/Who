@@ -1,30 +1,22 @@
 import classes from './StartPage.module.css'
-// import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
-
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const MainPage = () => {
-  
     return(
     <>
-<body>
 <div className={classes.container}>
-      <svg className={classes.foundation} id="foundation" width="700" height="700" viewBox="0 0 540 541" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="280" cy="260" r="230" stroke="black" stroke-width="3" />
-        <path d="M2.5 250C2.5 217.498 8.90178 185.314 21.3398 155.286C33.7779 125.258 52.0086 97.9736 74.9911 74.9911C97.9736 52.0086 125.258 33.7779 155.286 21.3398C185.314 8.90177 217.498 2.5 250 2.5" stroke="#F6E088" stroke-width="5" />
-        <path d="M2.5 250C2.5 217.498 8.90178 185.314 21.3398 155.286C33.7779 125.258 52.0086 97.9736 74.9911 74.9911C97.9736 52.0086 125.258 33.7779 155.286 21.3398C185.314 8.90177 217.498 2.5 250 2.5" stroke="#00D0E5" stroke-width="5" />
-        <path d="M537.5 291C537.5 323.502 531.098 355.686 518.66 385.714C506.222 415.742 487.991 443.026 465.009 466.009C442.026 488.991 414.742 507.222 384.714 519.66C354.686 532.098 322.502 538.5 290 538.5" stroke="#7596F5" stroke-width="5" />
+<svg className={classes.foundation} viewBox='0 0 1920 1300'>
+        <path className={classes.top} d="M 926.03658,644.19979 A 161.925,161.925 0 0 1 973.63672,522.39183 161.925,161.925 0 0 1 1095.7119,475.48126"></path>
+        <path className={classes.buttom} d="m 1250.5917,630.94874 a 161.925,161.925 0 0 1 -45.9029,121.85299 161.925,161.925 0 0 1 -120.7798,48.65661"></path>
+        <path className={classes.circle} d="M 1230.5878,638.23309 A 141.55208,141.55208 0 0 1 1089.0358,779.78517 141.55208,141.55208 0 0 1 947.48369,638.23309 141.55208,141.55208 0 0 1 1089.0358,496.68102 141.55208,141.55208 0 0 1 1230.5878,638.23309 Z"></path>
       </svg>  
 
           <h1 className={classes.txt1}>Агрегатор<br/>
             в сфере IT</h1>
-          <a href="description.html" className={classes["link-on"]}>
 
-            <Link to='/description'><h3 className={classes["txt-of-link"]}>Нажмите, чтобы начать.</h3></Link>
-          </a>
-          
+            <Link to='/description'><h3 className={classes["link-on"]}>Нажмите, чтобы начать.</h3></Link>
+            
     </div>
-</body>
     </>
     )
 }

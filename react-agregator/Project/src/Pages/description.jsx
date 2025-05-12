@@ -5,13 +5,7 @@ import { Link } from 'react-router';
 
 const Description = () => {
     return(
-        <>
-        <body>
-        <nav className={classes.navigation}>
-        <a className={classes.logo} href="#">Agregator</a>
-        <a href="#container" className={classes["main-button"]}>Список профессий</a>
-
-    </nav>
+        <> 
         <div className={classes.test}>
         <div className={classes.container1}>
         <h1>Какая профессия в сфере IT<br/> подходит вам больше всего?</h1>
@@ -26,7 +20,6 @@ const Description = () => {
 
     <DeskImg />
         </div>
-        </body>
         </>
     )
 }

@@ -97,7 +97,7 @@ h3 {
 }
 
 .logo {
-    width: 150px;
+    width: auto;
     height: 40px;
     font-size: medium;
     border: 2px solid white;

@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    
+    overflow: hidden;
 }
 
 
@@ -37,6 +37,8 @@ body {
     box-shadow: 0 10px #F6E088;
     border: 1px solid #000;
     background-color: #F3F6FF;
+    font-family: "JetBrains Mono", serif;
+    font-size: large;
 }
 
 .btn1:hover {
@@ -54,6 +56,8 @@ body {
     box-shadow: 0 10px #EE9688;
     border: 1px solid #000;
     background-color: #F3F6FF;
+    font-family: "JetBrains Mono", serif;
+    font-size: large;
 }
 
 .btn2:hover {
@@ -71,59 +75,11 @@ body {
     box-shadow: 0 10px #00D0E5;
     border: 1px solid #000;
     background-color: #F3F6FF;
+    font-family: "JetBrains Mono", serif;
+    font-size: large;
 }
 
 .btn3:hover {
-    border: 1.5px solid #000;
-    box-shadow: none;
-    
-}
-
-.btn4 {
-    margin: 0 auto;
-    width: 90%;
-    height: 55px;
-    margin-top: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px #7596F5;
-    border: 1px solid #000;
-    background-color: #F3F6FF;
-}
-
-.btn4:hover {
-    border: 1.5px solid #000;
-    box-shadow: none;
-    
-}
-
-.btn5 {
-    margin: 0 auto;
-    width: 90%;
-    height: 55px;
-    margin-top: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px #5D99B3;
-    border: 1px solid #000;
-    background-color: #F3F6FF;
-}
-
-.btn5:hover {
-    border: 1.5px solid #000;
-    box-shadow: none;
-}
-
-.btn6 {
-    margin: 0 auto;
-    width: 90%;
-    height: 55px;
-    margin-top: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px #B1D6F0;
-    border: 1px solid #000;
-    background-color: #F3F6FF;
-}
-
-.btn6:hover {
     border: 1.5px solid #000;
     box-shadow: none;
     
@@ -144,7 +100,7 @@ body {
     position: relative;
     border: 1.5px solid;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: -180px;
 }
 
 .progress-bar-inner {
@@ -184,21 +140,21 @@ body {
 }
 
 .logo {
-    width: 150px;
-    height: 40px;
-    font-size: medium;
-    border: 2px solid white;
-    border-radius: 10px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    border-bottom: 2px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     left: 0;
-    margin-left: 4%;
+    margin-left: 2%;
+    font-family: "JetBrains Mono", serif;
 }
 
 .logo:hover{
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     transition: .3s all;
 }
 
@@ -210,18 +166,41 @@ a {
 
 .main-button {
     width: auto;
-    height: 40px;
-    border: 2px solid white;
-    border-radius: 10px;
+    height: auto;
+
+    font-size: 18px;
+    border-bottom: 2px solid black;
     position: absolute;
     left: 0;
-    margin-left: 12.2%;
+    margin-left: 16%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "JetBrains Mono", serif;
 }
 
 .main-button:hover {
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     transition: .3s all;
+}
+
+.navigation {
+    width: 100%;
+    height: 70px;
+
+    z-index: 2;
+
+    background-color: white;
+    border-bottom: 3px solid black;
+
+    position: sticky;
+    top: 0;
+    display: flex;
+    margin: auto;
+
+    align-items: center;
+    justify-content: center;
+
+
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.1);
 }
