@@ -14,7 +14,7 @@ const TestPage = () => {
            <div className={classes["progress-bar-inner"]}></div>
         </div>
 
-        
+        <Question />
 
         <h3 className={classes.maintxt}>*Вопрос*</h3>
         
