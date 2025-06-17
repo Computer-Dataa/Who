@@ -3,8 +3,8 @@ import classes from '../Pages/description.module.css'
 
 const DeskImg = () => {
     return (
-    <div classname={classes.container2}>
-        <img classname={classes.image} src={myimg}/>
+    <div className={classes.container2}>
+        <img className={classes.image} src={myimg}/>
     </div>
     )
 }
