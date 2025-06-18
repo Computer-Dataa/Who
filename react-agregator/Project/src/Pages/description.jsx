@@ -2,11 +2,10 @@ import classes from './description.module.css'
 import DeskImg from '../Components/deskimg';
 import { href, Link } from 'react-router';
 
-
 const Description = () => {
     return(
         <> 
-       <nav> 
+       <nav className={classes.mainp}> 
             <Link to='/library' className={classes.library}>Библиотека профессий</Link>
        </nav>  
 
@@ -18,9 +17,9 @@ const Description = () => {
             <br></br>
             Если твой выбор пал на область IT,  тогда у нас для тебя хорошие новости! 
             <br></br>
-            Пройди наш короткий тест из 20<br></br>вопросов и получи рекомендации о<br></br>профессиональном профиле в IT-сфере,<br></br>который подошёл бы тебе больше всего.
+            Пройди наш короткий тест<br></br>и получи рекомендации о<br></br>профессиональном профиле в IT-сфере,<br></br>который подошёл бы тебе больше всего.
             <br></br>
-            Начни изучать новое уже сегодня, вместе с нашей командой!
+            Начни изучать новое уже сегодня!
         </h3>
             <Link to='/testpage' className={classes.btnt}>Начать тест</Link>
     </div>

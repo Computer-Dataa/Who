@@ -88,52 +88,6 @@
     border-radius: 20px;
 }
 
-.arrows {
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-.arrow1 {
-    width: 55px;
-    height: 55px;
-    border-radius: 100%;
-    background-color: #A7B1F0;
-
-    color: white;
-    font-size: 20px;
-
-    align-items: center;
-    justify-content: center;
-}
-
-.mid {
-    width: 55px;
-    height: 55px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: #7F6BA9;
-
-    color: white;
-    font-size: 20px;
-
-    align-items: center;
-    justify-content: center;
-}
-
-.arrow2 {
-    width: 55px;
-    height: 55px;
-    border-radius: 100%;
-    background-color: #A7B1F0;
-
-    color: white;
-    font-size: 20px;
-
-    align-items: center;
-    justify-content: center;
-}
-
 nav {
     height: 70px;
     width: 100%;

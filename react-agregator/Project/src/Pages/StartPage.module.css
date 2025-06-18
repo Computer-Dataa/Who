@@ -4,22 +4,18 @@
     background-color: white;
 
     color: black;
-}
-
-body {
-    background-color: none;
-    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .container {
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
-    display: grid;
+    display: block;
     
     margin: auto;
     justify-content: center;
     align-items: center;
-    background-image: url('');
+    background-image: url('/src/img/backgroundstart.png');
 }
 
 .foundation {
@@ -34,19 +30,19 @@ body {
 
     display: grid;
     margin: auto;
-    margin-left: 0px;
-    margin-top: -100px;
+    margin-left: 800px;
+    margin-top: 430px;
 }
 
 .link-on {
-    position: absolute;
-    margin-top: 200px;
+    
+    margin-top: 530px;
     text-decoration: none;
     color: black;
-
+    width: 300px;
     display: flex;
 
-    margin-left: 140px;
+    margin-left: 750px;
 }
 
 .txt-of-link {
@@ -57,24 +53,6 @@ body {
 
 display: block;
 margin: auto;
-}
-
-.top {
-    fill: none;
-    stroke: #00D0e5;
-    stroke-width: 4px;
-}
-
-.buttom {
-    fill: none;
-    stroke: #7596f5;
-    stroke-width: 4px;
-}
-
-.circle {
-    fill: none;
-    stroke: black;
-    stroke-width: 4px;
 }
 
 nav {

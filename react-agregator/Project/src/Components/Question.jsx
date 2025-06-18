@@ -1,5 +1,6 @@
 import { useParams } from "react-router";
 import { useState } from "react";
+import { useEffect } from "react";
 
 export const Question = () => {
     const [ question, setQuestion ] = useState(null);
@@ -24,3 +25,5 @@ export const Question = () => {
   );
 
 }
+
+export default Question

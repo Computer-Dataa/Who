@@ -1,0 +1,165 @@
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: #EE9688;
+    z-index: 50;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+}
+
+.onmain {
+    margin-left: 35px;
+    background-color: #EE9688;
+    color: white;
+    font-size: 18px;
+}
+
+.container {
+    width: 2000px;
+    height: 1000px;
+    margin-left: -360px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 100px 100px 100px;
+    grid-column-gap: 300px;
+    grid-row-gap: 260px;
+}
+
+.design {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 35px #F5E187;
+    margin-left: -100px;
+}
+
+.front {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 35px #7F69AA;
+    margin-left: -100px;
+}
+
+.back {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 35px #00CFE6;
+    margin-left: -100px;
+}
+
+.devops {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 35px #EE9688;
+    margin-left: -100px;
+}
+
+.ai {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 35px #7596F5;
+    margin-left: -100px;
+}
+
+.pm {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 35px #5D99B3;
+    margin-left: -100px;
+}
+
+.game {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 35px #A7AFF0;
+    margin-left: -100px;
+}
+
+.qa {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 35px #B1D6EF;
+    margin-left: -100px;
+}
+
+.data {
+    width: 1500px;
+    height: 300px;
+    border: 1px solid #A5A5A5;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 35px #71B876;
+    margin-left: -100px;
+}
+
+.adesign {
+    margin-left: 40%;
+    margin-top: 130px;
+}
+
+.afront {
+    margin-left: 43%;
+    margin-top: 130px;
+}
+
+.aback {
+    margin-left: 43%;
+    margin-top: 130px;
+}
+
+.adevops {
+    margin-left: 44%;
+    margin-top: 130px;
+}
+
+.aai {
+    margin-left: 41%;
+    margin-top: 130px;
+}
+
+.apm {
+    margin-left: 44%;
+    margin-top: 115px;
+}
+
+.agame {
+    margin-left: 44%;
+    margin-top: 130px;
+}
+
+.aqa {
+    margin-left: 42%;
+    margin-top: 130px;
+}
+
+.adata {
+    margin-left: 42%;
+    margin-top: 130px;
+}

@@ -1,5 +1,6 @@
 import classes from './test.module.css'
 import { Link } from 'react-router-dom'
+import Question from '../Components/Question'
 
 const TestPage = () => {
     return(
@@ -14,7 +15,7 @@ const TestPage = () => {
            <div className={classes["progress-bar-inner"]}></div>
         </div>
 
-        <Question />
+        <Question/>
 
         <h3 className={classes.maintxt}>*Вопрос*</h3>
         
